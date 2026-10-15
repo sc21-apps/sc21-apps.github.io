@@ -1,0 +1,41 @@
+{
+  "name": "School 21 Apps",
+  "identifier": "io.github.sc21-apps",
+  "subtitle": "Неофициальные приложения для платформы Школы 21",
+  "description": "Платформа Школы 21 на iPhone: автовход, закладки, «Мои друзья», «Где сидит пир», напоминания и виджеты.",
+  "iconURL": "https://sc21-apps.github.io/assets/icon-256.png",
+  "headerURL": "https://sc21-apps.github.io/assets/og.png",
+  "website": "https://sc21-apps.github.io",
+  "tintColor": "#3DDABF",
+  "apps": [
+    {
+      "name": "School 21",
+      "bundleIdentifier": "ru.school21.ios",
+      "developerName": "Dlzxn",
+      "subtitle": "Платформа Школы 21 в кармане",
+      "localizedDescription": "Неофициальный клиент platform.21-school.ru: автовход, закладки и стартовая страница, «Мои друзья» — кто в кампусе и где сидит, «Где сидит пир», напоминания о проверках, уведомления платформы и виджеты. Приложение только читает данные платформы и ничего не делает от вашего имени.",
+      "iconURL": "https://sc21-apps.github.io/assets/icon-256.png",
+      "tintColor": "#3DDABF",
+      "category": "education",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "buildVersion": "3",
+          "date": "2026-10-15",
+          "localizedDescription": "«Мои друзья» с уведомлением «друг в кампусе», обновление в один тап через AltStore, источник AltStore.",
+          "downloadURL": "https://github.com/Dlzxn/school_21_ios/releases/download/v1.1.0/School21.ipa",
+          "size": 342480,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
